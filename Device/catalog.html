@@ -7,14 +7,17 @@
   <body>
 
     <header class="head">
-      <a class="main-header-logo" href="index.html">
-        <img src="img/logo.svg" width="" height="" alt="Логотип Device">
-        </a>
+      <div class="logo">
+        <a class="logo-text" href="index.html">Device</a>
+      </div>
 
-        <section class="head-left">
-          <span class="search">Поиск по сайту</span>
+      <div class="search">
+          <span class="search-left">Поиск по сайту</span>
           <!--Здесь будет форма-->
-          <h3>Каталог товаров</h3>
+      </div>
+
+      <div class="catalog-left">
+        <h3>Каталог товаров</h3>
           <ul class="list-left">
             <li><a href="catalog.html">Виртуальная реальность</a></li>
             <li><a href="catalog.html">Моноподы для селфи</a></li>
@@ -27,25 +30,25 @@
           <ul class="list-rigth">
             <li><a href="catalog.html"> Квадрокоптеры</a></li>
           </ul>
-        </section>  
+      </div>  
 
-        <section class="head-rigth">
-          <ul class="part-top">
+      <div class="head-rigth">
+        <ul class="part-top">
             <li class="part-top-profile">Валентин Петухов</li>
             <li class="part-top-exit">Выйти</li>
             <li class="part-top-compare"><a class="compare-link" href="">Сравнить</a>              
             </li>
             <li class="part-top-basket">
-            <a href="">Корзина</a>  
-            <!--это будет ссылка-->    
+              <a href="">Корзина</a>  
+                <!--это будет ссылка-->    
             </li>
-          </ul>
+        </ul>
           <div class="part-button">
             <h3><a href="#">Доставка</a></h3>
             <h3><a href="#">Гарантия</a></h3>
             <h3><a href="#">Контакты</a></h3>
           </div>
-        </section>
+      </div>
     </header>
 
 
@@ -80,28 +83,28 @@
 
       <a class="item" href="#">
         <div class="cat-img">
-          <img src=""http://placehold.it/150x100"" alt="Любительская селфи-палка">
+          <img src="item-1.png" alt="Любительская селфи-палка">
         </div>
         <p class="cat-img-title">Любительская селфи-палка</p>
         <span class="cat-img-price">500 руб.</span>
       </a>
       <a class="item" href="#">
         <div class="cat-img">
-          <img src=""http://placehold.it/150x100"" alt="Профессиональная селфи-палка">
+          <img src="item-2.png" alt="Профессиональная селфи-палка">
         </div>
         <p class="cat-img-title">Профессиональная селфи-палка</p>
         <span class="cat-img-price">1 500 руб.</span>
       </a>
       <a class="item" href="#">
         <div class="cat-img">
-          <img src=""http://placehold.it/150x100"" alt="Непотопляемая селфи-палка">
+          <img src="item-3.png" alt="Непотопляемая селфи-палка">
         </div>
         <p class="cat-img-title">Непотопляемая селфи-палка</p>
         <span class="cat-img-price">2 500 руб.</span>
       </a>
       <a class="item" href="#">
         <div class="cat-img">
-          <img src=""http://placehold.it/150x100"" alt="Селфи-палка "Следуй за мной"">
+          <img src="item-4.png" alt="Селфи-палка "Следуй за мной"">
         </div>
         <p class="cat-img-title">Селфи-палка "Следуй за мной"</p>
         <span class="cat-img-price">4 900 руб.</span>
@@ -116,22 +119,22 @@
 
     <footer>
       <section class="left-part">
-        <div class="left-part-logo">
-          <a class="main-header-logo-2" href="index.html">
-            <img src="img/logo-2.svg" width="" height="" alt="Логотип Device">
-            </a>
-          </div>
+        <div class="logo">
+          <a class="logo-text" href="index.html">Device</a>
+        </div>
+
           <div class="left-address">
             <p class="left-part-address">г. Москва, ул. Строителей, 15</p>
           </div>
         </section>
 
-        <section>
-          <div class="links">
+        
+        <div class="links">
             <ul class="links-footer">
               <li><a href=""> Доставка</a></li>
                 <li><a href="">Гарантия</a></li> 
-                <li><a href="">Контакты</a></li>    
+                <li><a href="">Контакты</a></li>  
+                <li class="numb-footer">Тел.: +7(495)495-95-95</li> 
             </ul>
           </div>
 
@@ -141,22 +144,19 @@
             <li><a class="social-button" href="#">Фейсбук</a></li>
             <li><a class="social-button" href="#">Инстаграм</a></li>
           </ul>
-          </div>
-        </section>
+        </div>
 
-        <section class="right-footer">
-        <div>
+        
+      <div class="right-footer">
           <ul class="nav-footer">
             <li class="nav-footer-profile">Валентин Петухов</li>
             <li class="nav-footer-exit">Выйти</li>
-              <li class="nav-footer-compare"><a class="compare-list-link-2" href="">Сравнить
+            <li class="nav-footer-compare"><a class="compare-list-link-2" href="">Сравнить
               </a></li>
-              <li class="basket-2">Корзина</li>
-          <!--Здесь будет форма-->
+            <li class="basket-2">Корзина</li>
+<!--Здесь будет форма-->
           </ul>
-          <span class="numb-footer">Тел.: +7(495)495-95-95</span>
-        </div>
-      </section> 
+      </div> 
     </footer>
   </body> 
 </html>
