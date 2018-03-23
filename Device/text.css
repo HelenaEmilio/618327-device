@@ -1,0 +1,207 @@
+/*ШРИФТЫ*/
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('web/gilroyextrabold.woff2') format('woff2'),
+         url('web/gilroy-extrabold.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroylight';
+    src: url('web/gilroylight.woff') format('woff');
+    src: url('web/gilroylight.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'opensans';
+    src: url('web/opensans.woff') format('woff');
+    src: url('web/opensans.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'opensanslight';
+    src: url('web/opensanslight.woff') format('woff');
+    src: url('web/opensanslight.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+h3, h2, button, .logo a,
+.populars, .advantages li,
+.transorting-company li,
+.logo-footer,
+.links-footer li{
+	font-family: 'gilroyextrabold', sans-serif;
+}
+.example-numeral td,
+.fitness-head,
+.fitness-head-hours{
+	font-family: 'gilroylight';
+}
+body{
+	margin: 0;
+	padding: 0;
+
+
+	font-family: 'opensanslight', sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #000000;
+	text-transform: none;
+
+	background-color: #ffffff;
+}
+.fitness-head-hours{
+	font-size: 13px;
+	line-height: 20px;
+}
+/*Отменим для ссылок подчеркивание*/
+a{
+  text-decoration: none;
+  color: #000000;
+
+}
+li{
+	list-style: none;
+}
+.logo a{
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
+}
+.logo a:hover {
+	opacity: 0.6;
+}
+.logo a:focus {
+	opacity: 0.3;
+}
+/*Стили для навигации*/
+.nav-rigth-list li{
+	list-style: none;
+}
+.catalog-list-left li,
+.catalog-list-center li,
+.catalog-list-rigth li{
+	list-style: none;
+	line-height: 36px;
+}
+.catalog-list-bottom li,
+.catalog h3,
+.advantages-links,
+.brands li{
+	list-style: none;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.login-link{
+	color: #000000;
+}
+.searching{
+	display: inline-block;
+	border-bottom: 1px solid black;
+}
+.searching button{
+	border: 2px solid black;
+	height: 49px;
+    width: 85px;
+}
+
+.searching input{
+	opacity: 0.3;
+	background-color: transparent;
+    border: 0px solid;
+    height: 49px;
+    width: 85px;
+}
+/*Контейнер*/
+h2{
+	font-size: 47px;
+	line-height: 56px;
+}
+.button{
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
+	font-family: 'gilroyextrabold', sans-serif;
+	font-weight: bold;
+}
+.example-numeral,
+.fitness-head{
+	font-size: 36px;
+	line-height: 48px;
+}
+.populars{
+	font-weight: bold;
+}
+.transorting-company li{
+	font-weight: bold;
+	list-style: circle;
+}
+/*Фон
+.img{
+	background-color: #ddd5b9;
+	background: url('img/popular-item.png');
+	background-repeat: no-repeat;
+	height: 160px;
+    width: 160px;
+}
+.head{
+	background-color: #ddd5b9;
+	background: url('img/header-line.png');
+	background-repeat: no-repeat;
+	height: 299px;
+    width: 1160px;
+}
+.advantages{
+	background-color: #e8e8e8;
+	background: url('img/advan.png');
+	background-repeat: no-repeat;
+	height: 288px;
+    width: 1445px;
+}
+*/
+
+/*Стилизация кнопок*/
+.button{
+	display: block;
+	margin: auto 0 ;
+	width: 220px;
+    height: 40px;
+    background: url('img/button.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+
+
+
+
+
+
+
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+

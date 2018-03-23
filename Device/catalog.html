@@ -2,59 +2,58 @@
   <head> 
     <meta charset="utf-8">
     <title>Device</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="text.css">
   </head>
 
   <body>
     <header class="head">
       <div class="logo">
-      <a class="logo-text" href="index.html">Device</a>
+        <a class="logo-text" href="index.html">Device</a>
       </div>
 
-        <nav class="search">
-          <div class="search-left">
-            <input type="search" name="search-left-site" value="Поиск по сайту">
-            <!--ПОИСК-->
-          </div>
-      <div class="nav-rigth">
-            <ul class="nav-rigth-list">
-              <li class="nav-user">Валентин Петухов</li>
-              <li class="nav-exit">Выйти</li>
-              <li class="nav-compare"><a class="compare-link" href="">Сравнить</a>              
-                </li>
-                <li class="nav-basket">
-                    <a href="">Корзина</a>  
-                </li>
-              </ul>
-            </div>
-            <div class="catalog">
-            <h3>Каталог товаров</h3>
-              <ul class="catalog-list-left">
+      <nav class="search">
+        <div class="search-left">
+            <form class="searching">
+              <input type="search" class="input-search" name="search-left-site" value="Поиск по сайту">
+              <button class="button-search">Найти</button>
+              <!--ПОИСК-->
+            </form>
+        </div>
+        <div class="nav-rigth">
+          <ul class="nav-rigth-list">
+            <li class="nav-user">Валентин Петухов</li>
+            <li class="nav-exit"><a class="login-link" href="login.html">Выйти</a></li>
+            <li class="nav-compare"><a class="compare-link" href="">Сравнить</a></li>
+            <li class="nav-basket"><a href="">Корзина</a></li>
+          </ul>
+        </div>
+        <div class="catalog">
+          <h3>Каталог товаров</h3>
+              <ul class="catalog-list-popular">
                 <li><a href="catalog.html">Виртуальная реальность</a></li>
                 <li><a href="catalog.html">Моноподы для селфи</a></li>
                 <li><a href="catalog.html">Экшн-камеры</a></li>
+                <li><a href="catalog.html">Фитнес-браслеты</a></li>
+                <li><a href="catalog.html">Умные часы</a></li>
+                <li><a href="catalog.html">Квадрокоптеры</a></li>
               </ul>
-              <ul class="catalog-list-center">
-                <li><a href="catalog.html"> Фитнес-браслеты</a></li>
-                <li><a href="catalog.html"> Умные часы</a></li>
-              </ul>
-              <ul class="catalog-list-rigth">
-                <li><a href="catalog.html"> Квадрокоптеры</a></li>
-              </ul>
-              <ul class="catalog-list-bottom">
-                <li>
-                  <h3><a href="#">Доставка</a></h3>
-                </li>
-                <li>
-                  <h3><a href="#">Гарантия</a></h3>
-                </li>
-                <li>
-                  <h3><a href="#">Контакты</a></h3>
-                </li>
-              </ul>
-          </div>
-        </nav>
+          </div>  
+          <div class="advantages">
+          <ul class="catalog-list-bottom">
+            <li>
+              <h3><a class="advantages-links" href="#">Доставка</a></h3>
+            </li>
+            <li>
+              <h3><a class="advantages-links" href="#">Гарантия</a></h3>
+            </li>
+            <li>
+              <h3><a class="advantages-links" href="#">Контакты</a></h3>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-
     
       <div class="description">
         <h1 class="page-title">Моноподы для селфи</h1>
@@ -65,38 +64,33 @@
         </ul>
       </div>
 
-
-
       <div class="filters-form">
         <h4>Фильтр:</h4>
         <form class="filter" action="http://echo.htmlacademy.ru" method="get"> 
-
-
         <label for="filters-form-range">Стоимость</label>
-            <input type="range" id="filters-form-range" class="range-sum" min="0" max="5000">
-
-              <span class="range-title">от 0</span>
-              <span class="range-title">до 5000</span>
+          <input type="range" id="filters-form-range" class="range-sum" min="0" max="5000">
+          <span class="range-title">от 0</span>
+          <span class="range-title">до 5000</span>
 
           <fieldset>
-          <legend>Цвет</legend>
+            <legend>Цвет</legend>
             <ul>
-              <li class="filter-option"> 
-                <input type="checkbox" name="subscribe" id="subscribe-form-color" checked>
-                <label for="subscribe-form-color">Черный</label></li>
-              <li class="filter-option">
-                <input type="checkbox" name="subscribe" id="filters-form-color-2">
-                <label for="subscribe-form-color-2">Белый</label></li>
-              <li class="filter-option">
-                <input type="checkbox" name="subscribe" id="filters-form-color-3" checked>
-                <label for="subscribe-form-color-3">Синий</label></li>
-              <li class="filter-option">
-                <input type="checkbox" name="subscribe" id="filters-form-color-4" checked>
-                <label for="subscribe-form-color-4">Красный</label></li>
-              <li class="filter-option">
-                <input type="checkbox" name="subscribe" id="filters-form-color-5">
-                <label for="subscribe-form-color-5">Розовый</label></li>
-              </ul>
+                <li class="filter-option"> 
+                  <input type="checkbox" name="subscribe" id="subscribe-form-color" checked>
+                  <label for="subscribe-form-color">Черный</label></li>
+                <li class="filter-option">
+                  <input type="checkbox" name="subscribe" id="filters-form-color-2">
+                  <label for="subscribe-form-color-2">Белый</label></li>
+                <li class="filter-option">
+                  <input type="checkbox" name="subscribe" id="filters-form-color-3" checked>
+                  <label for="subscribe-form-color-3">Синий</label></li>
+                <li class="filter-option">
+                  <input type="checkbox" name="subscribe" id="filters-form-color-4" checked>
+                  <label for="subscribe-form-color-4">Красный</label></li>
+                <li class="filter-option">
+                  <input type="checkbox" name="subscribe" id="filters-form-color-5">
+                  <label for="subscribe-form-color-5">Розовый</label></li>
+            </ul>
           </fieldset>
 
           <fieldset>
@@ -112,7 +106,6 @@
           </fieldset>
           <button type="submit" class="filter-button button">Показать</button>
         </form>
-        <!--Здесь форма фильтрации-->
       </div>
 
       <div class="sort">
@@ -129,28 +122,28 @@
       <div class="catalog">
       <a class="item" href="#">
         <div class="cat-img">
-          <img src="item-1.png" alt="Любительская селфи-палка">
+          <img src="img/item-1.png" alt="Любительская селфи-палка">
         </div>
         <p class="cat-img-title">Любительская селфи-палка</p>
         <span class="cat-img-price">500 руб.</span>
       </a>
       <a class="item" href="#">
         <div class="cat-img">
-          <img src="item-2.png" alt="Профессиональная селфи-палка">
+          <img src="img/item-2.png" alt="Профессиональная селфи-палка">
         </div>
         <p class="cat-img-title">Профессиональная селфи-палка</p>
         <span class="cat-img-price">1 500 руб.</span>
       </a>
       <a class="item" href="#">
         <div class="cat-img">
-          <img src="item-3.png" alt="Непотопляемая селфи-палка">
+          <img src="img/item-3.png" alt="Непотопляемая селфи-палка">
         </div>
         <p class="cat-img-title">Непотопляемая селфи-палка</p>
         <span class="cat-img-price">2 500 руб.</span>
       </a>
       <a class="item" href="#">
         <div class="cat-img">
-          <img src="item-4.png" alt="Селфи-палка "Следуй за мной"">
+          <img src="img/item-4.png" alt="Селфи-палка "Следуй за мной"">
         </div>
         <p class="cat-img-title">Селфи-палка "Следуй за мной"</p>
         <span class="cat-img-price">4 900 руб.</span>
@@ -159,36 +152,36 @@
     </section>
 
 
-<footer>
+    <footer>
       <div class="footer-top">
-      <span class="logo-footer">Device</span>
-      <ul class="nav-footer">
-            <li><a href="#">Войти</a></li>
-              <li><a href="#">Сравнить</a></li>
-              <li><a href="#">Корзина</a></li>
-          </ul> 
-    </div>
+        <span class="logo-footer">Device</span>
+        <ul class="nav-footer">
+              <li><a href="#">Войти</a></li>
+                <li><a href="#">Сравнить</a></li>
+                <li><a href="#">Корзина</a></li>
+        </ul> 
+      </div>
 
       <div class="footer-middle">
           <p>г. Москва, ул. Строителей, 15</p>
           <ul class="links-footer">
-        <li><a href="#"> Доставка</a></li>
-          <li><a href="#">Гарантия</a></li> 
-          <li><a href="#">Контакты</a></li>   
-      </ul>
-      <p>Тел.: +7(495)495-95-95</p> 
-        </div>
+              <li><a href="#"> Доставка</a></li>
+              <li><a href="#">Гарантия</a></li> 
+              <li><a href="#">Контакты</a></li>   
+          </ul>
+          <p>Тел.: +7(495)495-95-95</p> 
+      </div>
 
-        <div class="social-footer">
-          <ul>
-        <li><a class="social-button" href="#">Вконтакте</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
-      </ul>
-      <p class="copyright">
-          <span class="icon">HTML Academy</span>
-      </p>
-        </div>  
+      <div class="social-footer">
+        <ul>
+            <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+        <p class="copyright">
+            <span class="icon">HTML Academy</span>
+        </p>
+      </div>  
     </footer>
   </body> 
 </html>
